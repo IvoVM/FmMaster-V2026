@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { carouselFiles, slidePaths } from "../data/library";
+import { carouselFiles, carouselLines, slidePaths } from "../data/library";
 
 const DURATION = 5600;
 
 const slides = carouselFiles.map((_, index) => ({
   ...slidePaths(index),
-  alt: `Foto ${index + 1} de FM Master junto a la comunidad de Miramar`,
+  line: carouselLines[index],
+  alt: carouselLines[index],
 }));
 
 function Chevron({ dir }) {
@@ -144,6 +145,13 @@ export function Gallery() {
           );
         })}
       </div>
+      <p
+        key={slide.line}
+        aria-live="polite"
+        className="caption-in mt-6 text-center font-display text-2xl font-extrabold tracking-wide text-white text-balance md:text-4xl"
+      >
+        {slide.line}
+      </p>
     </div>
   );
 }

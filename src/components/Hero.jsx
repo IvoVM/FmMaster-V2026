@@ -1,6 +1,7 @@
 import { useCountUp } from "../hooks/useCountUp";
 import { yearsOnAir } from "../lib/years";
 import { Gallery } from "./Gallery";
+import { Weather } from "./Weather";
 
 export function Hero() {
   const years = yearsOnAir();
@@ -17,10 +18,13 @@ export function Hero() {
       <div className="hero-grid pointer-events-none absolute inset-0" />
 
       <div className="relative mx-auto max-w-6xl px-5 pt-14 md:pt-20">
-        <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold tracking-[0.16em] uppercase">
-          <span className="live-dot inline-block h-2 w-2 rounded-full" />
-          105.3 · LRP 396 · Miramar
-        </p>
+        <div className="mb-6 flex flex-wrap items-center gap-2">
+          <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold tracking-[0.16em] uppercase">
+            <span className="live-dot inline-block h-2 w-2 rounded-full" />
+            105.3 · LRP 396 · Miramar
+          </p>
+          <Weather />
+        </div>
         <h1 className="max-w-4xl" aria-label={label}>
           <span className="block font-display text-lg font-bold tracking-[0.2em] text-gold uppercase" aria-hidden="true">
             Más de

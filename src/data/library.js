@@ -27,6 +27,31 @@ export const carouselFiles = [
   "carimg26.jpg",
 ];
 
+export const carouselLines = [
+  "Master es tu mejor compañía...",
+  "Master es fiesta...",
+  "Master es familia...",
+  "Master es solidaridad...",
+  "Master es Miramar...",
+  "Master es corazón...",
+  "Master es alegría...",
+  "Master es equipo...",
+  "Master es diversión...",
+  "Master es ilusión...",
+  "Master es ternura...",
+  "Master es pueblo...",
+  "Master es gratitud...",
+  "Master es arte...",
+  "Master es presencia...",
+  "Master es música...",
+  "Master es futuro...",
+  "Master es encuentro...",
+  "Master es celebración...",
+  "Master es brillo...",
+  "Master es historia...",
+  "Master es hogar...",
+];
+
 export const team = [
   { name: "Juan Mastrángelo", file: "JUAN.jpeg", show: "Resumen 24" },
   { name: "Clara Alvarenga", file: "clara.jpeg", show: "Claramente Romántica" },

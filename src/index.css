@@ -109,6 +109,10 @@ body {
   animation: settle 0.7s ease;
 }
 
+.caption-in {
+  animation: caption 0.45s ease;
+}
+
 .menu-in {
   animation: menu 0.22s ease;
 }
@@ -159,6 +163,17 @@ body {
   }
 }
 
+@keyframes caption {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes settle {
   from {
     opacity: 0;
@@ -204,6 +219,7 @@ body {
   .live-dot,
   .wave-bar,
   .slide-in,
+  .caption-in,
   .menu-in,
   .progress-bar {
     animation: none;
