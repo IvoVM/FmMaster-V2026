@@ -75,7 +75,7 @@ export const team = [
     show: "Pasión de pesca",
   },
   { name: "Gustavo Olarieta y Lucas", file: "lucas.jpg", show: "Despertate noticias" },
-  { name: "Pastores Damián y Horacio", file: "la-voz-de-dios.jpeg", show: "La voz de Dios" },
+  { name: "Gustavo Olarieta, Aníbal y Clara", file: "a-mi-manera.jpeg", show: "A Mi Manera con Vos" },
   { name: "Noelia y Matias", file: "mas-vale-tarde.jpg", show: "Más vale tarde" },
   { name: "Monica Tissone", file: "moni.jpg", show: "Arriba Miramar" },
   { name: "Ezequiel Gutierrez", file: "ezequiel.jpg", show: "De todo un poco" },
@@ -91,9 +91,9 @@ export const schedule = [
     items: [
       ["06:00", "08:00", "La Matera"],
       ["08:00", "10:30", "Resumen 24"],
+      ["10:30", "12:30", "A Mi Manera con Vos"],
       ["12:30", "14:00", "Evocando tangos"],
       ["14:00", "16:00", "Saltando sin parar"],
-      ["18:00", "20:30", "La voz de Dios"],
     ],
   },
   {
@@ -102,6 +102,7 @@ export const schedule = [
     items: [
       ["06:00", "08:00", "La Matera"],
       ["08:00", "10:30", "Resumen 24"],
+      ["10:30", "12:30", "A Mi Manera con Vos"],
       ["12:30", "14:00", "Evocando tangos"],
       ["14:00", "16:00", "Saltando sin parar"],
     ],
@@ -112,6 +113,7 @@ export const schedule = [
     items: [
       ["06:00", "08:00", "La Matera"],
       ["08:00", "10:30", "Resumen 24"],
+      ["10:30", "12:30", "A Mi Manera con Vos"],
       ["12:30", "14:00", "Evocando tangos"],
       ["14:00", "16:00", "Saltando sin parar"],
     ],
@@ -122,6 +124,7 @@ export const schedule = [
     items: [
       ["06:00", "08:00", "La Matera"],
       ["08:00", "10:30", "Resumen 24"],
+      ["10:30", "12:30", "A Mi Manera con Vos"],
       ["12:30", "14:00", "Evocando tangos"],
       ["14:00", "16:00", "Saltando sin parar"],
       ["20:00", "22:00", "De todo un poco"],
@@ -133,6 +136,7 @@ export const schedule = [
     items: [
       ["06:00", "08:00", "La Matera"],
       ["08:00", "10:30", "Resumen 24"],
+      ["10:30", "12:30", "A Mi Manera con Vos"],
       ["12:30", "14:00", "Evocando tangos"],
       ["14:00", "16:00", "Saltando sin parar"],
       ["19:00", "20:00", "Está escrito"],
